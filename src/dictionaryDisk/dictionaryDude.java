@@ -7,7 +7,7 @@ import java.io.IOException;
 public class dictionaryDude {
 
 	private static void insert(TrieContainer start, String word, String meaning) {
-		word = word.trim();
+		word = word.trim();		//Trim for any spaces
 		for (int j = 0; j < word.length(); j++) {
 			char character = word.charAt(j);
 			// In series, check the position of character,
